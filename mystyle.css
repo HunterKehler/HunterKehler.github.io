@@ -15,3 +15,22 @@ header {
 	padding: 80px;
 	text-align: center;
 }
+
+navbar {
+	overflow: hidden;
+	background-color: SlateBlue;
+}
+
+navbar a { 
+	float: center;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+navbar a:hover {
+	background-color: SlateGray;
+	color: LightGray;
+}
