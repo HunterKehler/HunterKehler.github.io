@@ -8,6 +8,12 @@
 	background-color: MidnightBlue;
 	font-family: Verdana, Georgia, sans-serif;
  }
+ 
+ .wrapper {
+	display: flex;
+	position: relative;
+	padding: 4rem 3rem;
+ }
 
 .header {
 	background-color: MidnightBlue;
