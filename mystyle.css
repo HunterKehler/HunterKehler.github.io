@@ -11,8 +11,11 @@
  
  .wrapper {
 	display: flex;
-	position: relative;
+	margin: 0;	
 	padding: 4rem 3rem;
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
  }
 
 .header {
@@ -25,10 +28,10 @@
 }
 
 .face {
-	width: 14rem;
-	height: 14rem;
-	line-height: 14rem;
-	border: 8px solid white;
+	width: 15rem;
+	height: 15rem;
+	line-height: 15rem;
+	border: 9px solid white;
 	border-radius: 100%;
 	align-content: center; 
 }
