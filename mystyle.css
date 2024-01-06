@@ -1,78 +1,33 @@
-.head {
-	background-color: MidnightBlue;
-	color: black;
+html {
+	background-color: midnightblue;
+	color: white;
 	font-family: Verdana, Georgia, sans-serif;
- }
+}
 
-.body { 
-	background-color: MidnightBlue;
-	font-family: Verdana, Georgia, sans-serif;
+body {
 	margin: 0;
 	padding: 0;
+	font-size: 100%;
+	font-family: Verdana, Georgia, sans-serif;
 	vertical-align: baseline;
- }
- 
- .wrapper {
+}
+
+wrapper {
 	display: flex;
-	margin: 0;	
-	padding: 4rem 3rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 	position: relative;
 	min-height: 100vh;
 	width: 100%;
- }
-
-.header {
-	background-color: MidnightBlue;
-	display: flex;
-	color: white;
-	padding: 80px;
-	text-align: center;
-	align-items: center;
+	padding: 4rem 2rem;
 }
 
-.face {
+face {
 	width: 15rem;
 	height: 15rem;
 	line-height: 15rem;
 	border: 9px solid white;
 	border-radius: 100%;
 	align-content: center; 
-}
-
-.nav {
-	overflow: hidden;
-	background-color: SlateBlue;
-}
-
-.nav a {
-	float: left;
-	display: inline;
-	color: white;
-	text-align: center;
-	padding: 14px 20px;
-	text-decoration: none;
-}
-
-.nav a:hover {
-	background-color: DarkSlateBlue;
-	color: 
-}
-
-.nav a:active {
-	background-color: RoyalBlue
-}
-
-.footer {
-	padding: 20px;
-	text-align: center;
-	background: SlateGray;
-}
-
-.footer h3 {
-	color: white;
-}
-
-.footer p {
-	color: white;
-	
 }
