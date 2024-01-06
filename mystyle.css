@@ -6,7 +6,6 @@
 
 .body { 
 	background-color: MidnightBlue;
-	color: white;
 	font-family: Verdana, Georgia, sans-serif;
  }
 
@@ -44,4 +43,13 @@
 	padding: 20px;
 	text-align: center;
 	background: SlateGray;
+}
+
+.footer h3 {
+	color: white;
+}
+
+.footer p {
+	color: white;
+	
 }
