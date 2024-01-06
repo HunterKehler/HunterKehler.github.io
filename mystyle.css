@@ -17,6 +17,14 @@
 	text-align: center;
 }
 
+.face {
+	width: 12rem;
+	height: 12rem;
+	line-height: 12rem;
+	border: 2px solid white;
+	border-radius: 100%;
+}
+
 .nav {
 	overflow: hidden;
 	background-color: SlateBlue;
