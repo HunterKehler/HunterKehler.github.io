@@ -1,15 +1,17 @@
 .head {
 	background-color: white;
+	color: Black;
 	font-family: Verdana, Georgia, sans-serif;
  }
 
 .body { 
-	background-color: white;
+	background-color: MidnightBlue;
+	color: white;
 	font-family: Verdana, Georgia, sans-serif;
  }
 
 .header {
-	background-color: #9370DB;
+	background-color: MediumPurple;
 	color: white;
 	padding: 80px;
 	text-align: center;
@@ -31,10 +33,11 @@
 
 .nav a:hover {
 	background-color: DarkSlateBlue;
+	color: 
 }
 
 .nav a:active {
-	color: RoyalBlue
+	background-color: RoyalBlue
 }
 
 .footer {
