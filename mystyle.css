@@ -34,6 +34,10 @@
 	color: LightGray;
 }
 
+.nav a:active {
+	color: RoyalBlue
+}
+
 .footer {
 	padding: 20px;
 	text-align: center;
