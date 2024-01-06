@@ -11,6 +11,7 @@
 
 .header {
 	background-color: MediumPurple;
+	display: block;
 	color: white;
 	padding: 80px;
 	text-align: center;
