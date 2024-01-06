@@ -19,16 +19,17 @@
 
 .wrapper {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	position: relative;
 	min-height: 100vh;
 	width: 100%;
-	padding: 4rem 2rem;
 }
 
 .header {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	max-width: 100%;
 	text-align: center;
@@ -40,13 +41,35 @@
 	line-height: 15rem;
 	border: 9px solid white;
 	border-radius: 100%;
-	align-content: center; 
+	margin: 0 0 3rem 0; 
+}
+
+.header .bio {
+	display: block;
+    border: 2px inset white;
+    border-right: outset;
+    border-left: inset;
+    border-bottom: inset;
+    border-top: inset;
+	margin: 0 0 5rem 0;
 }
 
 .header .bio h1 {
 	color: white;
+	margin: 0 0 1rem 0;
+	font-size: 3rem;
 }
 
 .header .bio p {
-	color: white
+	color: white;
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.header .nav .ul .li a {
+	display: block;
 }
