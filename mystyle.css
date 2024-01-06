@@ -1,27 +1,27 @@
-head {
+.head {
 	background-color: white;
 	font-family: Verdana, Georgia, sans-serif;
  }
 
-body { 
+.body { 
 	background-color: white;
 	
 	font-family: Verdana, Georgia, sans-serif;
  }
 
-header {
+.header {
 	background-color: #9370DB;
 	color: white;
 	padding: 80px;
 	text-align: center;
 }
 
-nav {
+.nav {
 	overflow: hidden;
 	background-color: SlateBlue;
 }
 
-nav a {
+.nav a {
 	float: center;
 	display: block;
 	color: white;
@@ -30,7 +30,13 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:hover {
+.nav a:hover {
 	background-color: SlateGray;
 	color: LightGray;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: SlateGray;
 }
