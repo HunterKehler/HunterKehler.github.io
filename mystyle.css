@@ -70,18 +70,28 @@
 	margin-right: 10px;
 }
 
-.header .nav .button a {
-	background-color: white;
-	border: none;
-	color: midnightblue;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	margin: 4px 2px;
+.header .nav ul {
+	list-style-type: none;
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	list-style-type: none;
-	
+	align-content: stretch;
+	align-items: center;
+	flex-direction: row;
+}
+
+.header .nav .button {
+	background-color: #EAEBED;
+	border: none;
+	color: midnightblue;
+	padding: 20px 36px;
+	text-align: center;
+	text-decoration: none;
+	margin: 16px 8px;
+	border-radius: 4px;
+	transition-duration: 0.3s;
+}
+
+.header .nav .button:hover {
+	background-color: #d6c9f0;
 }
