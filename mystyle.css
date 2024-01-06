@@ -38,10 +38,10 @@
 	align-content: center; 
 }
 
-.bio h1 {
+.header .bio h1 {
 	color: white;
 }
 
-.bio p {
+.header .bio p {
 	color: white
 }
