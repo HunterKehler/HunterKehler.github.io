@@ -23,11 +23,26 @@ wrapper {
 	padding: 4rem 2rem;
 }
 
-face {
+wrapper header {
+	display: flex;
+	align-items: center;
+	max-width: 100%;
+	text-align: center;
+}
+
+header face {
 	width: 15rem;
 	height: 15rem;
 	line-height: 15rem;
 	border: 9px solid white;
 	border-radius: 100%;
 	align-content: center; 
+}
+
+header bio h1 {
+	color: white;
+}
+
+header bio p {
+	color: white
 }
