@@ -16,12 +16,12 @@ header {
 	text-align: center;
 }
 
-navbar {
+nav {
 	overflow: hidden;
 	background-color: SlateBlue;
 }
 
-navbar a {
+nav a {
 	float: center;
 	display: block;
 	color: white;
@@ -30,7 +30,7 @@ navbar a {
 	text-decoration: none;
 }
 
-navbar a:hover {
+nav a:hover {
 	background-color: SlateGray;
 	color: LightGray;
 }
