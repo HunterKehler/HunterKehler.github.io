@@ -126,6 +126,24 @@
 	background-color: #d6c9f0;
 }
 
+.page {
+	background-color: #5B2D9F;
+	color: white;
+	padding: 4rem 2rem 10rem 2rem;
+	width: 77.5vw;
+	border-radius: 12px;
+}
+
+.page h1 {
+	background-color: #5B2D9F;
+	color: white;
+}
+
+.page p {
+	background-color: #5B2D9F;
+	color: white;
+}
+
 .footer {
 	display: flex;
 	flex-wrap: wrap;
@@ -137,12 +155,16 @@
 	
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
 
 	.nav ul {
 		list-style-type: none;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		align-content: space-between;
 	}
 	
 	.nav .button {
@@ -155,5 +177,18 @@
 		padding: 20px 36px;
 		margin: 8px 0px;
 		width: 90px;
+	}
+
+	.nav .button_top {
+		display: block;
+		flex-direction: row;
+		list-style-type: none;
+		flex-wrap: nowrap;
+		align-content: flex-end;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 36px;
+		margin: 8px 1vw;
+		width: 75px;
 	}
 }
