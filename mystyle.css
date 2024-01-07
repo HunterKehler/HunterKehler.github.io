@@ -74,20 +74,21 @@
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-content: stretch;
+	justify-content: space-evenly;
+	align-content: space-around;
 	align-items: center;
 	flex-direction: row;
 }
 
 .nav .button {
+	display: block;
 	background-color: #EAEBED;
 	border: none;
 	color: midnightblue;
 	padding: 20px 36px;
 	text-align: center;
 	text-decoration: none;
-	width: 150px;
+	width: 75px;
 	margin: 16px 8px;
 	border-radius: 4px;
 	transition-duration: 0.3s;
@@ -108,7 +109,7 @@
 	
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
 	.nav ul {
 		list-style-type: none;
@@ -117,14 +118,14 @@
 	}
 	
 	.nav .button {
+		display: block;
 		list-style-type: none;
-		display: flex;
 		flex-wrap: nowrap;
 		align-content: flex-end;
 		justify-content: center;
 		align-items: center;
 		padding: 20px 36px;
-		margin: 10px 0px;
-		width: 75px;
+		margin: 8px 0px;
+		width: 90px;
 	}
 }
