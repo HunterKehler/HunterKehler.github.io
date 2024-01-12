@@ -149,6 +149,73 @@
 	color: white;
 }
 
+form {
+	background-color: #5B2D9F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+label {
+	background-color: #5B2D9F;
+	color: white;
+}
+
+input[name=name] {
+	width: 16vw;
+	background-color: white;
+	color: black;
+	border: 2px solid midnightblue;
+	border-radius: 2px;
+}
+
+input[name=email] {
+	width: 25vw;
+	background-color: white;
+	color: black;
+	border: 2px solid midnightblue;
+	border-radius: 2px;
+}
+
+input[name=subject] {
+	width: 25vw;
+	background-color: white;
+	color: black;
+	border: 2px solid midnightblue;
+	border-radius: 2px;
+}
+
+textarea[name=message] {
+	width: 65vw;
+	height: 25vh;
+	background-color: white;
+	color: black;
+	border: 2px solid midnightblue;
+	border-radius: 2px;
+	text-align: left;
+	vertical-align: text-top;
+	resize: none;
+	box-sizing: border-box;
+	margin: 5px 0px;
+}
+
+input[submit] {
+	background-color: #EAEBED;
+	border: none;
+	color: midnightblue;
+	padding: 20px 36px;
+	text-align: center;
+	text-decoration: none;
+	width: 75px;
+	margin: 16px 8px;
+	border-radius: 4px;
+	transition-duration: 0.3s;
+}
+
 .footer {
 	display: flex;
 	flex-wrap: wrap;
