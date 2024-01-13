@@ -144,6 +144,11 @@
 	background-color: #d6c9f0;
 }
 
+audio {
+	background-color: #5B2D9F;
+	margin: 20px 32px;
+}
+
 .page {
 	background-color: #5B2D9F;
 	color: white;
@@ -155,11 +160,15 @@
 .page h1 {
 	background-color: #5B2D9F;
 	color: white;
+	margin: 0px 0px 30px 0px;
+	font-size: xx-large;
 }
 
 .page h2 {
 	background-color: #5B2D9F;
 	color: white;
+	margin: 0px 0px 10px 0px;
+	font-size: larger;
 }
 
 .page p {
