@@ -112,7 +112,11 @@
 	background-color: #d6c9f0;
 }
 
-.nav .button_top {
+.nav_top {
+	padding: 30% 0px;
+}
+
+.nav_top .button_top {
 	display: block;
 	background-color: #EAEBED;
 	border: none;
@@ -126,7 +130,7 @@
 	transition-duration: 0.3s;
 }
 
-.nav .button_top:hover {
+.nav_top .button_top:hover {
 	background-color: #d6c9f0;
 }
 
