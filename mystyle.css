@@ -80,6 +80,10 @@
 	margin-right: 10px;
 }
 
+.nav {
+	padding: 30% 0px;
+}
+
 .nav ul {
 	list-style-type: none;
 	display: flex;
@@ -129,7 +133,7 @@
 .page {
 	background-color: #5B2D9F;
 	color: white;
-	padding: 4rem 2rem 10rem 2rem;
+	padding: 3rem 2rem 5rem 2rem;
 	width: 77.5vw;
 	border-radius: 12px;
 }
@@ -163,10 +167,11 @@ form {
 label {
 	background-color: #5B2D9F;
 	color: white;
+	margin: 5px 0px;
 }
 
-input[name=name] {
-	width: 16vw;
+input[name=from_name] {
+	width: 250px;
 	background-color: white;
 	color: black;
 	border: 2px solid midnightblue;
@@ -174,7 +179,7 @@ input[name=name] {
 }
 
 input[name=email] {
-	width: 25vw;
+	width: 400px;
 	background-color: white;
 	color: black;
 	border: 2px solid midnightblue;
@@ -182,7 +187,7 @@ input[name=email] {
 }
 
 input[name=subject] {
-	width: 25vw;
+	width: 400px;
 	background-color: white;
 	color: black;
 	border: 2px solid midnightblue;
@@ -190,7 +195,7 @@ input[name=subject] {
 }
 
 textarea[name=message] {
-	width: 65vw;
+	width: 80%;
 	height: 25vh;
 	background-color: white;
 	color: black;
@@ -203,14 +208,18 @@ textarea[name=message] {
 	margin: 5px 0px;
 }
 
-input[submit] {
+input[name=botcheck] {
+	display: none;
+}
+
+input[type=submit] {
 	background-color: #EAEBED;
 	border: none;
 	color: midnightblue;
 	padding: 20px 36px;
 	text-align: center;
 	text-decoration: none;
-	width: 75px;
+	width: 150px;
 	margin: 16px 8px;
 	border-radius: 4px;
 	transition-duration: 0.3s;
@@ -223,12 +232,52 @@ input[submit] {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	margin-top: 0vh;
+	margin-top: 1vh;
 	
+}
+
+@media screen and (max-height: 900px) and (min-width: 1100px) {
+
+	.nav {
+		padding: 15% 0px;
+	}
+}
+
+@media screen and (max-height: 900px) and (max-width: 800px) {
+
+	.nav {
+		padding: 15% 0px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+
+	input[name=from_name] {
+		width: 18vw;
+	}
+	
+	input[name=email] {
+		width: 30vw;
+	}
+	
+	input[name=subject] {
+		width: 30vw;
+	}
+	
+	textarea[name=message] {
+		width: 65vw;
+		height: 15vh;
+	}
+
 }
 
 @media screen and (max-width: 800px) {
 
+	.nav {
+		padding: 15% 0px;
+	}
+	
+	
 	.nav ul {
 		list-style-type: none;
 		display: flex;
@@ -259,8 +308,43 @@ input[submit] {
 		align-content: flex-end;
 		justify-content: center;
 		align-items: center;
-		padding: 20px 36px;
+		padding: 15px 18px;
 		margin: 8px 1vw;
 		width: 75px;
 	}
+
+	input[type=submit] {
+		padding: 18px 0px;
+		width: 125px;
+		margin: 16px 0px;
+
+}
+
+@media screen and (max-width: 500px) {
+	
+	.page {
+		background-color: #5B2D9F;
+		color: white;
+		padding: 3rem 2rem 3rem 2rem;
+		width: 77.5vw;
+		border-radius: 12px;
+	}
+	
+	input[name=from_name] {
+		width: 40%;
+	}
+	
+	input[name=email] {
+		width: 60%;
+	}
+	
+	input[name=subject] {
+		width: 60%;
+	}
+	
+	textarea[name=message] {
+		width: 90%;
+		height: 15vh;
+	}
+
 }
