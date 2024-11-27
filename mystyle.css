@@ -45,7 +45,18 @@
 	text-align: center;
 }
 
+/*
 .header .face {
+	width: 15rem;
+	height: 15rem;
+	line-height: 15rem;
+	border: 9px solid white;
+	border-radius: 100%;
+	margin: 0 0 3rem 0; 
+}
+*/
+
+.header img {
 	width: 15rem;
 	height: 15rem;
 	line-height: 15rem;
