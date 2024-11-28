@@ -156,39 +156,60 @@
 }
 
 audio {
-	background-color: #5B2D9F;
+	background-color: #542A93;
 	margin: 20px 32px;
 }
 
 .page {
-	background-color: #5B2D9F;
+	background-color: #542A93;
 	color: white;
 	padding: 3rem 2rem 5rem 2rem;
 	width: 77.5vw;
 	border-radius: 12px;
 }
 
+.page a {
+	background-color: #542A93;
+	color: white;
+}
+
+.page a:visited {
+	background-color: #542A93;
+	color: #E8E8E8;
+}
+
+.page a:hover {
+	background-color: #542A93;
+	color: #B8FFF7;
+}
+
+.page a:active {
+	background-color: #542A93;
+	color: #C9EED4;
+}
+
 .page h1 {
-	background-color: #5B2D9F;
+	background-color: #542A93;
 	color: white;
 	margin: 0px 0px 30px 0px;
 	font-size: xx-large;
 }
 
 .page h2 {
-	background-color: #5B2D9F;
+	background-color: #542A93;
 	color: white;
 	margin: 0px 0px 10px 0px;
 	font-size: larger;
 }
 
 .page p {
-	background-color: #5B2D9F;
+	background-color: #542A93;
 	color: white;
+	margin: 0px 0px 25px 0px;
 }
 
 form {
-	background-color: #5B2D9F;
+	background-color: #542A93;
     color: white;
     display: flex;
     flex-direction: column;
@@ -199,7 +220,7 @@ form {
 }
 
 label {
-	background-color: #5B2D9F;
+	background-color: #542A93;
 	color: white;
 	margin: 5px 0px;
 }
@@ -357,7 +378,7 @@ input[type=submit] {
 @media screen and (max-width: 500px) {
 	
 	.page {
-		background-color: #5B2D9F;
+		background-color: #542A93;
 		color: white;
 		padding: 3rem 2rem 3rem 2rem;
 		width: 77.5vw;
